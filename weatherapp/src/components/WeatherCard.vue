@@ -118,10 +118,6 @@ export default {
   background-color: #f8bbd0;
 }
 
-.weather-city-name h4 {
-  color: orange;
-  font-size: 2rem;
-}
 .weather-searchbar {
   width: 400px;
 }

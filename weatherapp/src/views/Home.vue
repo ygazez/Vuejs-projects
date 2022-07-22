@@ -12,14 +12,10 @@ import WeatherList from "../components/WeatherList.vue";
 export default {
   name: "Home",
   components: {
-    data() {
-      return {
-        name: "bursa",
-      };
-    },
     WeatherCard,
     WeatherList,
   },
+
   created() {
     this.fetchWeathers("bursa");
     console.log("home created");
