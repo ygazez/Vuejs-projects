@@ -198,7 +198,7 @@ export default {
   },
   mounted() {
     this.countryList.push({ id: "1", Name: "Ankara" });
-    this.countryList.push({ id: "2", Name: "Samsun" });
+    this.countryList.push({ id: "2", Name: "Shire" });
     this.countryList.push({ id: "3", Name: "Çanakkale" });
   },
 };
