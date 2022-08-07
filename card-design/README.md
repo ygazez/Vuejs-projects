@@ -1,19 +1,3 @@
 # card-design
+![image](https://user-images.githubusercontent.com/33622890/183309119-b30e118b-d5d6-4d4b-ba84-4429712888bd.png)
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
