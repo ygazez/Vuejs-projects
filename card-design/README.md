@@ -1,3 +1,4 @@
 # card-design
-![image](https://user-images.githubusercontent.com/33622890/183309119-b30e118b-d5d6-4d4b-ba84-4429712888bd.png)
+![image](https://user-images.githubusercontent.com/33622890/183412483-2127ad1b-679f-4b29-af90-35b1d8609f49.png)
+
 
