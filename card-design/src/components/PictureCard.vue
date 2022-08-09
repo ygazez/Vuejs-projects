@@ -21,7 +21,7 @@
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
-            <p class="picture-card-row-text-location">Minneapolis,MN,USA</p>
+            <span class="picture-card-row-text-location">Minneapolis,MN,USA</span>
           </div>
         </h3>
       </div>
@@ -80,18 +80,21 @@ export default {
 
 .picture-card {
   display: flex;
+  left: 35%;
+  margin-left:-100px;
   margin-top:100px;
   flex-direction: column;
   background-color: #ffff;
   border-radius: 20px;
   width: 350px;
   height: 300px;
-  font-family: cursive;
-  color: #2c1c6b;
+  
+  
   position: absolute;
   z-index: 2;
   &-row {
     display: flex;
+    align-items:center;
     margin: 40px;
     gap: 30px;
     height: 100px;
@@ -127,6 +130,7 @@ export default {
   gap: 10px;
 
   &-style-follow {
+    cursor:pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +142,7 @@ export default {
     color: #ffff;
   }
   &-style-message {
+    cursor:pointer;
     display: flex;
     justify-content: center;
     align-items: center;

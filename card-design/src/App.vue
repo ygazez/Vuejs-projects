@@ -4,24 +4,26 @@
       <PictureCard></PictureCard>
 
       <div class="back-card"></div>
+
+      <WorldCard></WorldCard>
     </div>
   </div>
 </template>
 <script>
 import PictureCard from "./components/PictureCard.vue";
-
+import WorldCard from "./components/WorldCard.vue";
 export default {
-  components: { PictureCard },
+  components: { PictureCard, WorldCard },
 };
 </script>
 <style lang="scss">
 #app {
   display: flex;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #2c1c6b;
 }
 * {
   margin: 0;
@@ -37,13 +39,15 @@ export default {
 }
 .back-card {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
   position: absolute;
   z-index: 0;
-  left: 45%;
-  top: 10%;
+
   border-radius: 20px;
   width: 350px;
-  height: 300px;
+  height: 250px;
   background-color: #2c1c6b;
   margin-top: 100px;
 }
