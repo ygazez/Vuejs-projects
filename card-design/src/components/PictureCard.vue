@@ -88,8 +88,6 @@ export default {
   border-radius: 20px;
   width: 350px;
   height: 300px;
-  
-  
   position: absolute;
   z-index: 2;
   &-row {

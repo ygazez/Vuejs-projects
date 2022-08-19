@@ -43,7 +43,7 @@ export default {
   align-items: center;
   top: 20%;
   position: absolute;
-  z-index: 0;
+  z-index: 1;
 
   border-radius: 20px;
   width: 350px;
