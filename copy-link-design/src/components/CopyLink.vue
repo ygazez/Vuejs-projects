@@ -2,6 +2,7 @@
   <div class="copy-link">
     <div class="copy-link-card">
       <h3 class="copy-link-card-header">Share document</h3>
+
       <div class="copy-link-card-input">
         <input
           class="copy-link-card-input-url"
@@ -9,8 +10,9 @@
           ref="clone"
           :value="url"
         />
+
         <button class="copy-link-card-input-btn" @click="copyUrl">
-          Copy link
+          {{ buttonText }}
         </button>
       </div>
     </div>
@@ -20,12 +22,24 @@
 import { eventBus } from "../main.js";
 export default {
   name: "CopyLink",
+  data() {
+    return {
+      buttonText: "Copy link",
+    };
+  },
   props: {
     url: String,
   },
   methods: {
     copyUrl() {
       eventBus.$emit("copy", this.url + "abc");
+      this.buttonText = "Copied";
+      this.copiedMessage();
+    },
+    copiedMessage() {
+      setTimeout(() => {
+        this.buttonText = "Copy link";
+      }, 3000);
     },
   },
 };
@@ -54,6 +68,12 @@ export default {
     border-radius: 24px;
     background-color: #fff;
 
+    &-label {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: -35px;
+      margin-right: 130px;
+    }
     &-header {
       margin: 56px;
       font-weight: 500;
@@ -83,6 +103,7 @@ export default {
         border: 20px double transparent;
         background-color: #4e7d75;
         color: #fff;
+        cursor: pointer;
       }
     }
   }

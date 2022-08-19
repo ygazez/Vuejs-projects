@@ -2,7 +2,7 @@
   <div class="home">
     <CopyLink :url="url" />
 
-    <input type="hidden" ref="urlinput" :value="copiedUrl" />
+    <input class="input" type="text" ref="urlinput" :value="copiedUrl" />
   </div>
 </template>
 
@@ -38,3 +38,11 @@ export default {
   },
 };
 </script>
+<style scoped>
+.input {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  opacity: 0;
+}
+</style>
