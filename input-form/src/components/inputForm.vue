@@ -91,42 +91,42 @@ export default {
 
     &-header {
       display: flex;
-      padding: 84px;
-      height: 50px;
+      padding: 5.25rem;
+      height: 3.125rem;
     }
     &-picture {
       display: flex;
-      width: 180px;
-      height: 250px;
+      width: 11.25rem;
+      height: 15.625rem;
       border: 2px solid #7a6c9d;
-      margin-left: 84px;
+      margin-left: 5.25rem;
       border-radius: 8px;
       &-img {
         margin: auto;
         border-radius: 50%;
-        width: 120px;
-        height: 120px;
+        width: 7.5rem;
+        height: 7.5rem;
       }
     }
 
     &-input-list {
-      margin-top: 90px;
+      margin-top: 5.625rem;
       display: flex;
       gap: 15px;
-      height: 50px;
+      height: 3.125rem;
       font-size: 14px;
 
       &-desc {
-        margin-top: -25px;
+        margin-top: -1.563rem;
         font-weight: 600;
       }
       &-item {
         display: flex;
-        height: 50px;
+        height: 3.125rem;
 
         &-input {
           color: #f0f4ec;
-          margin-left: -90px;
+          margin-left: -5.625rem;
           background-color: #1e2749;
           border: 2px solid #7a6c9d;
           border-radius: 8px;
@@ -136,21 +136,21 @@ export default {
     &-column {
       display: flex;
       flex-direction: column;
-      margin-top: 170px;
-      margin-left: -265px;
-      height: 300px;
+      margin-top: 10.625rem;
+      margin-left: -16.563rem;
+      height: 18.75rem;
       gap: 10px;
       &-desc {
         display: flex;
         justify-content: flex-start;
-        margin-left: -94px;
+        margin-left: -5.875rem;
         font-weight: 600;
       }
       &-item {
         display: flex;
-        height: 50px;
-        width: 346px;
-        margin-left: -94px;
+        height: 3.125rem;
+        width: 21.625rem;
+        margin-left: -5.875rem;
         background-color: #1e2749;
         border: 2px solid #7a6c9d;
         border-radius: 8px;
