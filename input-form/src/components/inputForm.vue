@@ -122,7 +122,7 @@ export default {
       }
       &-item {
         display: flex;
-        height: 50pxt;
+        height: 50px;
 
         &-input {
           color: #f0f4ec;
@@ -137,20 +137,20 @@ export default {
       display: flex;
       flex-direction: column;
       margin-top: 170px;
-      margin-left: -275px;
+      margin-left: -265px;
       height: 300px;
       gap: 10px;
       &-desc {
         display: flex;
         justify-content: flex-start;
-        margin-left: -95px;
+        margin-left: -94px;
         font-weight: 600;
       }
       &-item {
         display: flex;
         height: 50px;
-        width: 367px;
-        margin-left: -97px;
+        width: 346px;
+        margin-left: -94px;
         background-color: #1e2749;
         border: 2px solid #7a6c9d;
         border-radius: 8px;

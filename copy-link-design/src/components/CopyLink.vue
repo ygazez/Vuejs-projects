@@ -1,17 +1,17 @@
 <template>
   <div class="copy-link">
-    <div class="copy-link-card">
-      <h3 class="copy-link-card-header">Share document</h3>
+    <div class="copy-link__card">
+      <h3 class="copy-link__card-header">Share document</h3>
 
-      <div class="copy-link-card-input">
+      <div class="copy-link__card-input">
         <input
-          class="copy-link-card-input-url"
+          class="copy-link__card-input-url"
           v-on:focus="$event.target.select()"
           ref="clone"
           :value="url"
         />
 
-        <button class="copy-link-card-input-btn" @click="copyUrl">
+        <button class="copy-link__card-input-btn" @click="copyUrl">
           {{ buttonText }}
         </button>
       </div>
@@ -60,7 +60,7 @@ export default {
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  &-card {
+  &__card {
     box-sizing: border-box;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 1000px;
