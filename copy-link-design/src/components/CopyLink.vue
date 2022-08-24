@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     copyUrl() {
-      eventBus.$emit("copy", this.url + "abc");
+      eventBus.$emit("copy", this.url);
       this.buttonText = "Copied";
       this.copiedMessage();
     },
